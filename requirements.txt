@@ -1,0 +1,13 @@
+# ETMMGA304 - Generative AI and Its Applications
+# Python 3.10+. For a CUDA build of PyTorch, install torch/torchvision first
+# from https://pytorch.org/get-started/locally/ and then run
+#   pip install -r requirements.txt
+torch>=2.4,<3
+torchvision>=0.19,<1
+matplotlib>=3.8,<4
+transformers>=4.51,<5
+diffusers>=0.33,<1
+accelerate>=1.0,<2
+safetensors>=0.4,<1
+streamlit>=1.40,<2
+pandas>=2.2,<3
